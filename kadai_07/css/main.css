@@ -1,0 +1,472 @@
+/* ヘッダー関連 */
+#header_inner{
+    max-width: 1260px;
+    margin:0 auto;
+}
+
+.main_nav {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    height:65px;
+    line-height:initial;
+}
+
+.left_nav {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    float: left;
+}
+
+.userinfo {
+    margin: 0 0 0 60px;
+    width: 350px;
+    display: block;
+    float: right;
+    /* padding: initial; */
+}
+
+.userinfo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.login_info{
+    float: right;
+    width: 100px;
+    display: block;
+    margin: initial;
+    padding:initial;
+}
+
+/* 全体 */
+#main_contents{
+    max-width: 1260px;
+    margin:0 auto;
+}
+
+/* 左カラム */
+.left_container{
+    display: block;
+    float: left;
+    width: 200px;
+    /* padding:initial; */
+}
+
+.iconArea {
+    
+    border-radius: 5px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+.user_icon{
+    padding:initial;
+}
+
+.l_container{
+    margin:0 auto;
+    color: #202020;
+    width: 30%;
+    background-color:#ff9999;
+    border-radius: 5px;
+}
+
+.left-navi {
+    background-color: blue;
+    color: #202020;
+    width: 16%;
+    float: left;
+    margin: 10px 0 0 10px;
+    background-color:#ff9999;
+    border-radius: 5px;
+}
+
+.linkArea p{
+    font-size:20px;
+    margin-top: 20px;
+    border-bottom: #999 solid 1px;
+}
+
+/* 右カラム */
+.right_container {
+    display: block;
+    float: right;
+    width: 1030px;
+    /* padding: initial; */
+}
+
+.subnav{
+    display:flex;
+}
+
+div.ticker {
+    width: calc(85% - 0px);
+    height: 45px !important;
+}
+
+/* 更新テロップ */
+ul.news {
+    width: 500px;
+}
+
+#newsblock {
+    display: flex !important;
+    align-items: center;
+}
+
+.day {}
+
+.label {
+    background-color: #ff0000;
+    border-radius: 3px;
+    color: #fff;
+    padding: 2px 5px;
+    margin: 0 10px;
+}
+
+.text {}
+
+.main {
+    width: 100%;
+    padding:initial;
+
+}
+
+/* .icon_border {
+    width:160px;
+    padding: 1px;
+    background: #ccc;
+    position: relative;
+    margin:0 auto 5px auto;
+} */
+
+.user_icon img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: #ccc solid 3px;
+
+}
+
+.pName{
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+
+.navbar-brand span {
+    background-color:black;
+}
+
+.head_nav{
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+
+/* ナビゲーターのスタイル */
+#nav5 * {
+    font: bold 11px verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav5 {
+    /* margin: 1em 0; */
+    width: 300px;
+}
+
+#nav5 li {
+    display: inline;
+}
+
+#nav5 a {
+    width: 100px;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    /* background: transparent url(https://phpjavascriptroom.com/content/img/css/nav5_on.png) repeat-x left bottom; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc #999 #999 #ccc;
+    font-weight: bold;
+    background-color:#202020;
+}
+
+#nav5 a:hover,
+#nav5 a#current {
+    color: #fff;
+    text-decoration: none;
+    background: transparent url(https://phpjavascriptroom.com/content/img/css/nav5_off.png) repeat-x left bottom;
+}
+
+#frm{
+    border:solid gray 1px;
+    width:20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 50px;
+
+}
+
+#btn{
+    color:#fff;
+    background:#dc143c;
+    padding: 5px;
+    margin-left: 69%;
+}
+
+div.board{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    overflow-y:scroll;
+}
+
+.boardContainer{
+    margin-top: 100px;
+}
+/* 削除アイコン */
+.gg-user-remove {
+    display: block;
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    width: 20px;
+    height: 18px;
+    background:
+        linear-gradient(to left,
+            currentColor 8px,
+            transparent 0) no-repeat 14px 6px/6px 2px
+}
+
+.gg-user-remove::after,
+.gg-user-remove::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-user-remove::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+
+.gg-user-remove::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    top: 9px
+}
+/* データベースアイコン */
+.gg-database {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 14px;
+    border: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 6px solid transparent;
+    box-shadow: 0 0 0 2px,
+        inset 0 2px 0 0,
+        inset 0 -2px 0 0;
+    border-radius: 1px
+}
+
+.gg-database::after,
+.gg-database::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-database::before {
+    background: currentColor;
+    width: 20px;
+    height: 2px;
+    top: 4px;
+    left: -8px
+}
+
+.gg-database::after {
+    width: 2px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    top: 0;
+    left: -4px
+}
+
+/* detail.php 内更新中テキスト */
+.detail_text{
+    margin: 20px 0 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ユーザープロフィールのテーブル */
+table.profile_table{
+    border: #ccc solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.profile_table th {
+    background-color:#F0F2F1;
+    width: 170px;
+    
+}
+
+table.profile_table th,
+table.profile_table td{
+    padding:10px;
+    border-bottom: #ccc solid 1px;
+    border-right: #ccc solid 1px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+/* モーダルCSS */
+/* .modalArea {
+    display: none;
+    position: fixed;
+    z-index: 10; */
+    /*サイトによってここの数値は調整 */
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modalBg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 500px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.closeModal {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+} */
+
+body._fixed {
+    position: fixed;
+}
+
+.left-open__area {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+
+
+
+.left-open__area--main {
+    width: 258px;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    left: -400px;
+    overflow-x: scroll;
+}
+
+.left-open__btn--close {
+    display: none;
+}
+
+.left-open__btn--close:after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    position: absolute;
+    top: 4px;
+    left: 262px;
+}
+
+/* ログインアイコン */
+.gg-log-in {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 6px;
+    height: 16px;
+    border: 2px solid;
+    border-left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: -10px
+}
+
+.gg-log-in::after,
+.gg-log-in::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-log-in::after {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    left: -8px;
+    bottom: 2px
+}
+
+.gg-log-in::before {
+    border-radius: 3px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    left: -11px;
+    bottom: 5px
+}
+
