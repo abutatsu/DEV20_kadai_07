@@ -25,3 +25,7 @@
 同じコードは共通ファイルに書くなどページ更新作業時の効率の良い方法を考えたい。
 
 ## 課題のイメージ
+![localhost_kadai_07_login php](https://user-images.githubusercontent.com/83898546/124339932-9c8a3480-dbec-11eb-9305-1b7690cc48cf.png)
+![localhost_kadai_07_index php](https://user-images.githubusercontent.com/83898546/124339934-a1e77f00-dbec-11eb-8585-d2d73042902c.png)
+![localhost_kadai_07_transfer php](https://user-images.githubusercontent.com/83898546/124339938-a4e26f80-dbec-11eb-90b3-7d5b2fcd3ce7.png)
+![localhost_kadai_07_profile php_id=1](https://user-images.githubusercontent.com/83898546/124339943-a90e8d00-dbec-11eb-90ea-8450b368890e.png)
